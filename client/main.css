@@ -1,0 +1,12 @@
+/* CSS declarations go here */
+
+#map {
+  width: 500px;
+  height: 500px;
+}
+
+.resetRoute {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}

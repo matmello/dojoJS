@@ -1,0 +1,19 @@
+<template name="home">
+  {{>loginButtons}}
+  <h1>Bem Vindo ao projeto Localização Darcy!</h1>
+  <div class="row">
+    <div class="col-md-5">
+      <div id="map"></div>
+    </div>
+    <div class="col-md-4">
+      {{#each salas}}
+        <div class="row">
+          <a class="traceRoute" href="">{{name}}</a>
+        </div>
+      {{/each}}
+      <a href="" class="btn btn-primary btn-lg resetRoute">Limpar Rota</a>
+    </div>
+  </div>
+
+
+</template>
